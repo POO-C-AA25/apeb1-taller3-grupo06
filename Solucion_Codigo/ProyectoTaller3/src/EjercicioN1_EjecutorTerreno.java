@@ -1,4 +1,22 @@
-public class EjecutorTerreno {
+/***
+ * Elaborar una solución que calcule e imprima el costo de un terreno rectangular; se tiene como datos el ancho y el largo en metros; 
+ * el valor del metro cuadrado. El area del terreno es igual a largo por ancho. El costo del terreno es igual al valor del metro cuadrado por el área del terreno. 
+ * Luego del análisis se decide usar las siguientes entidades:
+ * Entidades o Clases
+ * Terreno
+ * Ejecutor
+ * Terreno, tiene los siguientes atributos
+ * costo_terreno
+ * ancho
+ * largo
+ * area
+ * valorMetroCuadrado
+ * Ejecutor (clase de prueba)
+ * Tiene el método main
+ *
+ * @author David Gonzalez / Dudef-ui / Grupo06
+ */
+public class EjercicioN1_EjecutorTerreno {
     
     public static Terreno terrenoX = new Terreno(); //Objeto global
     
